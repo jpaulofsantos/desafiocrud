@@ -8,7 +8,7 @@ import java.time.LocalDate;
 
 public class ClientDTO {
     private Long id;
-    @NotBlank(message = "Campo necessário")
+    @NotBlank(message = "Campo não pode ser vazio")
     private String name;
 
     private String cpf;
